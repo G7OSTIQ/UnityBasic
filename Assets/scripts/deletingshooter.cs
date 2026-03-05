@@ -6,7 +6,7 @@ public class deletingshooter : MonoBehaviour
     {
         
         //we are destroying the object we collided with
-        Destroy(other.gameObject);
+        //Destroy(other.gameObject);
         Destroy(gameObject);
     }
 }

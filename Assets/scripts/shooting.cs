@@ -12,6 +12,10 @@ public class shooting : MonoBehaviour
         //We don't need the framerate here
         //Impulse - an explosion force
         myregibody.AddForce(transform.up  * speed, ForceMode.Impulse);
+        
+        //Will the projectile after some time
+        //Destroy(gameObject, 3f); // a number of sec it will delete the object
+        
     }
     
     

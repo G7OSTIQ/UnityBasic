@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 2850021386653525988}
   - component: {fileID: 4031544177730534664}
   - component: {fileID: 7818192592933136448}
+  - component: {fileID: -6666143659209948156}
   m_Layer: 0
   m_Name: bullet
   m_TagString: Untagged
@@ -168,3 +169,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5d1c27d9cbacfa4bae257401002ab27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::deletingshooter
+--- !u!114 &-6666143659209948156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3747046610096533640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4bf44c307601d742bd4ba1188e5061b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::selfdistract
+  timer: 3
