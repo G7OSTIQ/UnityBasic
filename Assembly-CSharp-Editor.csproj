@@ -938,6 +938,12 @@
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>C:\Users\icastud\Documents\GitHub\UnityBasic\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Recorder.Editor">
+      <HintPath>C:\Users\icastud\Documents\GitHub\UnityBasic\Library\ScriptAssemblies\Unity.Recorder.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Splines.Editor">
+      <HintPath>C:\Users\icastud\Documents\GitHub\UnityBasic\Library\ScriptAssemblies\Unity.Splines.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.2D.Editor.Overrides">
       <HintPath>C:\Users\icastud\Documents\GitHub\UnityBasic\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.2D.Editor.Overrides.dll</HintPath>
     </Reference>
@@ -974,14 +980,26 @@
     <Reference Include="Unity.Burst.Editor">
       <HintPath>C:\Users\icastud\Documents\GitHub\UnityBasic\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Bindings.OpenImageIO.Editor">
+      <HintPath>C:\Users\icastud\Documents\GitHub\UnityBasic\Library\ScriptAssemblies\Unity.Bindings.OpenImageIO.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Recorder.Base">
+      <HintPath>C:\Users\icastud\Documents\GitHub\UnityBasic\Library\ScriptAssemblies\Unity.Recorder.Base.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Core">
       <HintPath>C:\Users\icastud\Documents\GitHub\UnityBasic\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
       <HintPath>C:\Users\icastud\Documents\GitHub\UnityBasic\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Cinemachine.Editor">
+      <HintPath>C:\Users\icastud\Documents\GitHub\UnityBasic\Library\ScriptAssemblies\Unity.Cinemachine.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.UnifiedRayTracing.Runtime">
       <HintPath>C:\Users\icastud\Documents\GitHub\UnityBasic\Library\ScriptAssemblies\Unity.UnifiedRayTracing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Cinemachine">
+      <HintPath>C:\Users\icastud\Documents\GitHub\UnityBasic\Library\ScriptAssemblies\Unity.Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>C:\Users\icastud\Documents\GitHub\UnityBasic\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
@@ -991,6 +1009,9 @@
     </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
       <HintPath>C:\Users\icastud\Documents\GitHub\UnityBasic\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Recorder">
+      <HintPath>C:\Users\icastud\Documents\GitHub\UnityBasic\Library\ScriptAssemblies\Unity.Recorder.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
       <HintPath>C:\Users\icastud\Documents\GitHub\UnityBasic\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
@@ -1069,6 +1090,12 @@
     </Reference>
     <Reference Include="Unity.InputSystem">
       <HintPath>C:\Users\icastud\Documents\GitHub\UnityBasic\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Settings.Editor">
+      <HintPath>C:\Users\icastud\Documents\GitHub\UnityBasic\Library\ScriptAssemblies\Unity.Settings.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Splines">
+      <HintPath>C:\Users\icastud\Documents\GitHub\UnityBasic\Library\ScriptAssemblies\Unity.Splines.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:\Users\icastud\Documents\GitHub\UnityBasic\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>

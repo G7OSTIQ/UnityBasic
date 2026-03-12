@@ -1,12 +1,16 @@
 using UnityEngine;
 
-public class deletingshooter : MonoBehaviour
+public class Enemiescipt : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
+        if (other.CompareTag("Player"))
+        {
+            //Destroy whatever has collided with
+            Destroy(other.gameObject);
+        }
         
-        //we are destroying the object we collided with
-        Destroy(other.gameObject);
+        //Will destroy me
         Destroy(gameObject);
     }
 }

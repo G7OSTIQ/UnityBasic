@@ -25,7 +25,7 @@ public class followplayer : MonoBehaviour
     void Update()
     {   
         //If not player stop the function
-        if (Player != null) return;
+        //if (Player != null) return;
         
         //carculate the next position to move to
         Vector3 traget = Vector3.MoveTowards(transform.position, 
