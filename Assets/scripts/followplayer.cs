@@ -10,16 +10,27 @@ public class followplayer : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Player = GameObject.FindGameObjectWithTag("Player").transform;
         
+        //Check the game object before accessing its transform
+        GameObject player_go = GameObject.FindWithTag("Player");
+        if (player_go != null)
+        {
+            Player = player_go.transform;
+        }
+        //Player = GameObject.FindWithTag("Player").transform;
+
     }
 
     // Update is called once per frame
     void Update()
-    {   //carculate the next position to move to
+    {   
+        //If not player stop the function
+        if (Player != null) return;
+        
+        //carculate the next position to move to
         Vector3 traget = Vector3.MoveTowards(transform.position, 
             Player.position, speed * Time.deltaTime);
         //Move toward the player
-        transform.position = new Vector3();
+        transform.position = traget;
     }
 }
